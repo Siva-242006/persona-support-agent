@@ -1,0 +1,42 @@
+Invoice and Payment Review Guide
+
+Overview
+
+This article explains how support should handle invoice questions, subscription renewal concerns, failed payment attempts, pending payments, and duplicate payment reports using common SaaS billing practices.
+
+Key Concepts
+
+- Invoices summarize charges, billing periods, usage, credits, taxes, payment status, and amount due.
+- A payment may be pending, successful, failed, retried, refunded, or disputed depending on payment processor and bank response.
+- A user may see both an authorization and a settled charge, depending on how their bank displays card activity.
+- Duplicate charge reports should be verified against invoices and payment processor records.
+- Support should not collect full card numbers, bank credentials, or card security codes.
+
+Common Questions
+
+Why does an invoice show a charge?
+
+The invoice may reflect a subscription renewal, usage charge, tax amount, previous balance, or account adjustment. A human reviewer should check account-specific billing records.
+
+What information helps payment review?
+
+Safe identifiers include invoice number, charge date, billing email, account identifier, subscription ID, and the payment amount. If the user volunteers card information, keep only non-sensitive identifiers such as the last four digits.
+
+Why is a payment pending?
+
+Pending payment status can depend on the bank, card network, payment method, and processor. Billing review should confirm final payment state before promising any adjustment.
+
+Troubleshooting
+
+1. Identify whether the concern is invoice amount, failed payment, pending payment, duplicate payment, renewal, tax, or refund.
+2. Ask for invoice number or charge date if available.
+3. Ask for account identifier or billing email if needed.
+4. Do not collect full payment details.
+5. Escalate duplicate charge reports, payment corrections, and refund requests.
+
+Best Practices
+
+- Keep responses factual and careful.
+- Do not promise credits or refunds.
+- Preserve invoice numbers and dates in handoff JSON.
+- Route unresolved payment questions to human billing review.

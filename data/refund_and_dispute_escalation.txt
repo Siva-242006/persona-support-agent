@@ -1,0 +1,42 @@
+Refund and Dispute Escalation Guide
+
+Overview
+
+This article defines how the assistant should handle refund requests, duplicate charge disputes, reimbursement demands, compensation requests, and billing complaints. These are sensitive financial issues and require human review.
+
+Key Concepts
+
+- Refund requests must be escalated to a human billing reviewer.
+- Duplicate charge disputes should be compared against invoices, payment attempts, refunds, and payment processor records.
+- The assistant may explain the review process but must not approve or deny the refund.
+- The assistant must not promise refund timing, compensation, reimbursement, or bank processing outcomes.
+- Legal threats or formal dispute language must be escalated as legal or compliance concerns.
+
+Common Questions
+
+Can the assistant issue a refund?
+
+No. The assistant can prepare a handoff and collect safe context, but a human reviewer must make the final billing decision.
+
+What information helps the reviewer?
+
+Useful context includes invoice number, charge date, billing email, account identifier, subscription ID, payment amount, and a brief description of the disputed charge.
+
+What if the user is angry?
+
+Use calm, empathetic language, acknowledge the inconvenience, avoid arguing about fault, and escalate when billing, refund, legal, account modification, or repeated frustration rules match.
+
+Troubleshooting
+
+1. Detect refund, reimbursement, compensation, money back, dispute, duplicate charge, invoice issue, or payment complaint language.
+2. Explain that a human billing reviewer must evaluate the request.
+3. Collect safe, non-sensitive context.
+4. Avoid promising the outcome.
+5. Generate handoff JSON with all matched escalation reasons.
+
+Best Practices
+
+- Preserve multiple escalation reasons.
+- Keep customer-facing language short and careful.
+- Do not ask for full card numbers or bank data.
+- Route legal threats to legal or compliance review.

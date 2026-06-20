@@ -1,0 +1,43 @@
+Billing Policy and Manual Review Guide
+
+Overview
+
+This guide explains how a support assistant should handle subscription billing, invoices, duplicate charge reports, refund requests, and payment disputes. The guidance follows common SaaS billing workflows: explain the process, collect safe identifiers, and route sensitive financial decisions to a human reviewer.
+
+Key Concepts
+
+- Subscription billing commonly creates invoices for recurring service periods, usage, taxes, credits, and adjustments.
+- Invoice and payment questions can involve invoice status, subscription renewal, failed payment attempts, duplicate charges, refunds, or account billing details.
+- Duplicate charge reports require a human reviewer to compare invoice records and payment processor activity.
+- Refund requests require escalation because they involve financial approval.
+- The assistant must not promise credits, refunds, compensation, reimbursement, or bank processing timelines.
+- Legal threats, formal dispute language, and compliance concerns require human review.
+
+Common Questions
+
+What should happen when a user reports duplicate charges?
+
+Collect safe context such as invoice number, charge date, billing email, account identifier, subscription ID, and a short description of the duplicate charge. Never request full card numbers, bank credentials, or security codes.
+
+Can the assistant approve a refund?
+
+No. The assistant can acknowledge the request, explain that a human billing reviewer will check invoice and payment records, and prepare the handoff JSON.
+
+Why can billing review take time?
+
+A human reviewer may need to compare invoice records, payment attempts, refunds, account state, subscription status, and payment processor records before making a decision.
+
+Troubleshooting
+
+1. Identify whether the issue is invoice amount, duplicate charge, refund, payment failure, renewal timing, or tax/billing details.
+2. Ask for invoice number, charge date, billing email, account identifier, or subscription ID when available.
+3. Do not collect full payment card numbers, bank credentials, or security codes.
+4. Escalate billing disputes, refund requests, duplicate charge reports, and payment corrections.
+5. Escalate legal or compliance concerns without giving legal advice.
+
+Best Practices
+
+- Keep billing explanations process-focused.
+- Avoid promising a financial outcome.
+- Preserve all escalation reasons.
+- Include safe billing identifiers and retrieved sources in the handoff JSON.
