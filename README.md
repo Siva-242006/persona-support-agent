@@ -2,8 +2,6 @@
 
 A Streamlit-based customer support assistant that classifies a user's communication persona, retrieves relevant knowledge base context with RAG, generates grounded Gemini responses, and escalates sensitive or low-confidence cases to a human handoff JSON.
 
-This repository is organized as a complete professional project: application code, knowledge base files, setup instructions, architecture notes, usage flow, deployment guidance, and manual validation scenarios are all documented in this README.
-
 ## Project Objective
 
 The goal of this project is to demonstrate a practical AI support workflow that is safer than a normal chatbot:
