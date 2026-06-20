@@ -22,7 +22,7 @@ The assistant supports exactly three personas:
 
 | Layer | Technology |
 | --- | --- |
-| Language | Python 3.11+ |
+| Language | Python |
 | UI | Streamlit |
 | LLM and embeddings | Google Gemini via `google-genai` |
 | Vector database | ChromaDB |
